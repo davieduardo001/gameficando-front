@@ -4,22 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'homol', url: 'https://github.com/davieduardo001/mysql-sgbdweb-api.git'
-            }
-        }
-        
-        stage('Setup Environment') {
-            steps {
-                script {
-                    // Create .env file dynamically
-                    writeFile file: '.env', text: '''
-                    DB_HOST=****
-                    DB_USER=****
-                    DB_PASSWORD=****
-                    DB_DATABASE=****
-                    MYSQL_ROOT_PASSWORD=****
-                    '''
-                }
+                git branch: 'main', url: 'https://github.com/davieduardo001/gameficando-front.git'
             }
         }
 
