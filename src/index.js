@@ -1,24 +1,14 @@
-// src/index.js
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import ReactDOM from 'react-dom/client';
 import App from './App';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
+import './styles/global.css';
 
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: '#61dafb',
-    },
-    secondary: {
-      main: '#282c34',
-    },
-  },
-});
+// Create a root element for React to manage
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
-ReactDOM.render(
-  <ThemeProvider theme={theme}>
+// Render the App component into the root element
+root.render(
+  <React.StrictMode>
     <App />
-  </ThemeProvider>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
