@@ -1,7 +1,7 @@
 services:
   frontend:
     build:
-      context: ./frontend  # The path to your frontend Dockerfile (React app)
+      context: ./  # The path to your frontend Dockerfile (React app)
     ports:
       - "8003:3000"        # Map host port 3000 to container port 3000 for frontend
     environment:
