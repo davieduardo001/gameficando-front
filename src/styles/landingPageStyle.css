@@ -11,24 +11,48 @@ h2.h2-white {
   text-align: center;
 }
 
+h2.h2-mine-brown{
+  font-family: "Minecraft";
+  font-size: 2.8rem;
+  text-align: center;
+  color: #2F1808;
+}
+
 /* mobile */
 @media (max-width: 600px) {
+  img.logo-incial {
+    width: 20vh;
+  }
+
   h2.h2-white { 
     font-family: "Lato";
     font-size: 0.9rem;
   }
-  img.logo-incial {
-    width: 20vh;
+
+  h2.h2-mine-brown{
+    font-family: "Minecraft";
+    font-size: 1.8rem;
+    text-align: center;
+    color: #2F1808;
   }
 }
 
 /* small tablet */
 @media (min-width: 601px) and (max-width: 900px) {
+  img.logo-incial {
+    width: 20vh;
+  }
+
   h2.h2-white { 
     font-family: "Lato";
     font-size: 0.9rem;
   }
-  img.logo-incial {
-    width: 20vh;
+
+  h2.h2-mine-brown{
+    font-family: "Minecraft";
+    font-size: 2.8rem;
+    text-align: center;
+    color: #2F1808;
   }
+
 }
