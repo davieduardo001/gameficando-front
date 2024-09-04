@@ -1,0 +1,23 @@
+.cardTitle { 
+    color: #2C1505;
+    font-style: 'bold';
+    font-size: 1.8rem
+}
+
+.textStyle {
+    font-family: 'Lato';
+    font-Size: 1.0rem;
+    color: #000000
+}
+
+@media (max-width: 600px) {
+    .cardTitle {
+        font-size: 1.4rem;
+    }
+
+    .textStyle {
+        font-family: 'Lato';
+        font-Size: 0.9rem;
+        color: #000000
+    }
+}

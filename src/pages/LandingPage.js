@@ -1,5 +1,6 @@
 import React from 'react';
 import Block from '../components/Block';
+import SimpleCard from '../components/SimpleCard';
 import '../styles/landingPageStyle.css'
 
 import logoImage from '../assets/images/logo_inicial.png';
@@ -21,7 +22,13 @@ const LandingPage = () => {
         
         <h2 className='h2-mine-brown'>Benefícios Incluídos no Curso</h2>
         
-        {/* <CardSimples image="" title="" text=""></CardSimples> */}
+        <div className='container-beneficios'>
+          <SimpleCard  image="card-material-didatico.png" title="Materiais Didáticos" text="Materiais e suporte estarão disponíveis para acompanhar as aulas." />
+          <SimpleCard  image="card-online.png" title="Online" text="Totalmente online! Aprenda de forma remota!" />
+          <SimpleCard  image="card-certificado.png" title="Certificado" text="Os alunos terão um Certificado ao finalizar o curso" />
+        </div>
+
+
 
       </Block>
 
