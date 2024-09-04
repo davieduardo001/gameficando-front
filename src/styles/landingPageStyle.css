@@ -1,6 +1,6 @@
 .logo-incial {
   margin-top: 20vh;
-  width: 50vh;
+  width: 60%;
 }
 
 .h2-white { 
@@ -19,6 +19,11 @@
 .container-beneficios {
   width: 100%;
   display: flex;
+}
+
+.segundo-bloco {
+  min-height: 50vh;
+  background-color: blueviolet;
 }
 
 /* small tablet and mobile */
