@@ -18,7 +18,7 @@ const LandingPage = () => {
       </Block>
 
       {/* segundo bloco */}
-      <Block backgroundColor="#fff" className='segundo-bloco'>
+      <Block backgroundColor="#fff" minHeight="50vh">
         
         <h2 className='h2-mine-brown'>Benefícios Incluídos no Curso</h2>
         
@@ -31,8 +31,13 @@ const LandingPage = () => {
       </Block>
 
       {/* terceiro bloco */}
-      <Block backgroundColor="#28a745">Block 3 (Cor de fundo)</Block>
+      <Block backgroundImage="fundo2.png">
+        <h2 className='h2-mine-white' style={paddingBloco3}>Conheça sua Jornada</h2>
 
+
+      </Block>
+
+      {/* quardo bloco */}
       <Block>Block 4 (Sem fundo, cor padrão branca)</Block>
       <Block backgroundImage="fundo_bloco_1.png">Block 5 (Imagem de fundo)</Block>
       <Block backgroundColor="#007bff">Block 6 (Cor de fundo)</Block>
@@ -40,5 +45,9 @@ const LandingPage = () => {
     </div>
   );
 };
+
+const paddingBloco3 = {
+  padding: '10vw'
+}
 
 export default LandingPage;

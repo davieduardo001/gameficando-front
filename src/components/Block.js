@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Block.css';
 
-const Block = ({ backgroundColor, backgroundImage, children }) => {
+const Block = ({ backgroundColor, backgroundImage, children, minHeight = '100vh', padding = '0' }) => {
     let backgroundStyle;
   
     if (backgroundImage) {
@@ -22,7 +22,8 @@ const Block = ({ backgroundColor, backgroundImage, children }) => {
   
     const blockStyle = {
       ...backgroundStyle,
-      minHeight: '100vh',
+      minHeight: minHeight,
+      padding: padding,
       width: '100vw',
     };
   
