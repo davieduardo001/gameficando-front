@@ -15,7 +15,7 @@ h2.h2-white {
 @media (max-width: 600px) {
   h2.h2-white { 
     font-family: "Lato";
-    font-size: 1.2rem;
+    font-size: 1.0rem;
   }
   img.logo-incial {
     width: 30vh;
@@ -26,7 +26,7 @@ h2.h2-white {
 @media (min-width: 601px) and (max-width: 900px) {
   h2.h2-white { 
     font-family: "Lato";
-    font-size: 1.2rem;
+    font-size: 1.0rem;
   }
   img.logo-incial {
     width: 30vh;
