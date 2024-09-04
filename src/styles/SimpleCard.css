@@ -1,7 +1,7 @@
 .cardTitle { 
     color: #2C1505;
     font-style: 'bold';
-    font-size: 1.8rem
+    font-size: 1.6rem
 }
 
 .textStyle {
@@ -12,12 +12,12 @@
 
 @media (max-width: 600px) {
     .cardTitle {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     .textStyle {
         font-family: 'Lato';
-        font-Size: 0.9rem;
+        font-Size: 0.8rem;
         color: #000000
     }
 }
