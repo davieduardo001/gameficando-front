@@ -23,16 +23,16 @@
 
 /* small tablet and mobile */
 @media (max-width: 990px) {
-  img.logo-incial {
-    width: 20vh;
+  .logo-incial {
+    width: 80vh;
   }
 
-  h2.h2-white { 
+  .h2-white { 
     font-family: "Lato";
     font-size: 0.9rem;
   }
 
-  h2.h2-mine-brown{
+  .h2-mine-brown{
     font-family: "Minecraft";
     font-size: 1.0rem;
     text-align: center;
@@ -46,10 +46,10 @@
   }
 
   .h2-mine-brown{
-  font-family: "Minecraft";
-  font-size: 2.8rem;
-  text-align: center;
-  color: #2F1808;
-}
+    font-family: "Minecraft";
+    font-size: 2.8rem;
+    text-align: center;
+    color: #2F1808;
+  }
 
 }
