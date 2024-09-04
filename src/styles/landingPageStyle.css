@@ -24,7 +24,7 @@
 /* small tablet and mobile */
 @media (max-width: 990px) {
   .logo-incial {
-    width: 80vh;
+    width: 80%;
   }
 
   .h2-white { 
