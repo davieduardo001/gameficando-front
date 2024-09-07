@@ -29,7 +29,7 @@ const LandingPage = () => {
     
 
       {/* primeiro bloco */}
-      <BackgroundBlock backgroundImage="background1.png" minHeight='100vh'>
+      <BackgroundBlock backgroundImage="background1.png" minHeight='1000vh'>
         
         <img src={logoImage} className='header' alt="Logo"/>
         <h2 className='h2-white'>Sua jornada de diversão e aprendizado começa gameficando!</h2>
@@ -62,9 +62,5 @@ const LandingPage = () => {
     </dev>
   );
 };
-
-const paddingBloco3 = {
-  padding: '10vw'
-}
 
 export default LandingPage;
