@@ -1,7 +1,5 @@
 import React from 'react';
 
-import '../styles/SimpleCard.css'
-
 const SimpleCard = ({ image, title, text }) => {
   return (
     <div style={cardStyle}>
